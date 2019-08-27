@@ -5,6 +5,7 @@ class PhoneNumberValidator:
 
     def validate(self, number: str):
         print(self.name)
+        print(self.__hash__())
         if len(number) > 6:
             return True
         return False
